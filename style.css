@@ -1,0 +1,113 @@
+@media (max-width: 400px) {
+.logo {
+    width: 60%;
+}
+
+.container{
+    padding: 20%;
+    max-width: 500px;
+    }
+
+    input, button {
+    font-size: 16px;
+    }
+
+    .tela{
+        max-width: 450px;
+        width: 250px;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*fundo da pagina */
+body {
+    background: linear-gradient(135deg, #c8f560, #58cc02); /*verde do Duolingo*/
+    font-family: Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*altura da tela inteira*/
+    flex-direction: column;
+    min-height: 100vh; /*sempre ocupa a alt da tela*/
+}
+
+/*caixa branca*/
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tela {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*centraliza horizontal*/
+    justify-content: center; /*centraliza vertical*/
+    height: 100vh;
+    width: 100%; /*ocupa tudo*/
+    max-width: 80%; /* mas não passa disso*/
+    min-height: 100vh;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #58cc02;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 12px; /*deixa mais alto*/
+    background-color: #58cc02;
+    color: white;
+    border: none; /*remove borda padrao feia*/
+    border-radius: 8px; /*deixa moderno*/
+    cursor: pointer; /*muda o cursor*/
+    font-weight: bold;
+    transition: 0.3; /*deixa a animacao suave*/
+}
+
+button:hover{
+    background-color: #46a302;
+}
+
+/*Link*/
+a {
+    display: block;
+    margin-top: 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 350px;
+    display: block;
+    margin: 30px auto 20px; /* Topo, centro, embaixo*/
+}
